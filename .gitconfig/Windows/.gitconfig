@@ -1,0 +1,16 @@
+[user]
+	email = varun.aggarwal@iitgn.ac.in
+	name = Salazar-prime
+[github]
+	user = salazar-prime
+[credential]
+	helper = wincred
+[alias]
+	type = cat-file -t
+	dump = cat-file -p
+	graph = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset)\t%C(bold green)%d%C(reset) %C(white)%s%C(reset) - %C(bold white)%an%C(reset) %C(bold yellow)(%ar)%C(reset)' --all
+	hist = log --pretty=format:\"%C(bold blue)%h%C(reset) %C(bold yellow)%ad%C(reset) | %s%C(bold green)%d%C(reset) %C(bold white)[%an]%C(reset)\" --graph --date=short
+	hist1 = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	hist2 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+	editor = "'D:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
