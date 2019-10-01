@@ -6,6 +6,7 @@
 [credential]
 	helper = wincred
 [alias]
+	st = status
 	type = cat-file -t
 	dump = cat-file -p
 	graph = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset)\t%C(bold green)%d%C(reset) %C(white)%s%C(reset) - %C(bold white)%an%C(reset) %C(bold yellow)(%ar)%C(reset)' --all
