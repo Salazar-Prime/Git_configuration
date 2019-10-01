@@ -1,6 +1,10 @@
 [user]
-	name = salazar
-	email = salazar_prime@outlook.com
+	email = aggarw82@purdue.edu
+	name = Salazar-prime
+[github]
+	user = salazar-prime
+[credential]
+	helper = store	
 [core]
 	autocrlf = input
 	safecrlf = true
