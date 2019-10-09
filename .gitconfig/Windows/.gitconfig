@@ -15,3 +15,8 @@
 	hist2 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
 	editor = "'D:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+[color "status"]
+        added = yellow bold
+        changed = green bold
+        untracked = blue bold
+        deleted = red bold
