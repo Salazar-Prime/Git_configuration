@@ -22,3 +22,5 @@
         changed = green bold
         untracked = blue bold
         deleted = red bold
+[init]
+	defaultBranch = main
